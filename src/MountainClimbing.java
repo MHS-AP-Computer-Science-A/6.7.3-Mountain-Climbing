@@ -12,6 +12,17 @@ public class MountainClibming {
 		int[] test8 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 9, 8, 7, 6};
 		int[] test9 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 9, 8, 7, 8};
 		
+		//Test isIncreasing
+		System.out.println("isIncreasing(test1, 0, 3) should return true and returns " + isIncreasing(test1, 0, 3));
+		System.out.println("isIncreasing(test1, 1, 4) should return false and returns " + isIncreasing(test1, 1, 4) + "\n\n");
+		
+		//Test isDecreasing
+		System.out.println("isDecreasing(test1, 3, 5) should return true and returns " + isDecreasing(test1, 3, 5));
+		System.out.println("isDecreasing(test1, 2, 5) should return false and returns " + isDecreasing(test1, 2, 5) + "\n\n");
+		
+		
+		
+		//Test isMountatin
 		System.out.println("Test 1 should be true with peak 5: " + isMountain(test1));
 		System.out.println("Test 2 should be true with peak 11: " + isMountain(test2));
 		System.out.println("Test 3 should be true with peak 2: " + isMountain(test3));
