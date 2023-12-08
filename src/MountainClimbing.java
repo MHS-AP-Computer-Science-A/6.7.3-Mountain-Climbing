@@ -1,5 +1,5 @@
 
-public class MountainClibming {
+public class MountainClimbing {
 
 	public static void main(String[] args) {
 		int[] test1 = {1, 2, 4, 5, 3, 0};
